@@ -1,2 +1,10 @@
 var x= 2;
-console.log(x *= "Hello");
+// console.log(x *= "Hello");
+// console.log(x *= 3);
+// console.log(x /=2);
+// console.log(x /=0);
+// console.log(x /= "Hello");
+// console.log(x %= 3);
+// console.log(x %= 0);
+// console.log(x %= "Hello");
+console.log(x **= 3);
