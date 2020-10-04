@@ -32,7 +32,7 @@
 //     if (i==5) continue;
 //     console.log(i);
 // }
-let myArray = ["one","two","three","four","five","six"];
+// let myArray = ["one","two","three","four","five","six"];
 // for(i=0; i<myArray.length; i++){
 //     console.log(myArray[i]);
 // }
@@ -51,9 +51,64 @@ let myArray = ["one","two","three","four","five","six"];
 //     num++
 // }
 
-let x= 5;
-while(x<10){
-    console.log(x);
-    x++;
-}
+// let x= 5;
+// while(x<10){
+//     console.log(x);
+//     x++;
+// }
+// number to string
+// let example = '50';
+// let example = String(50);
+// let example = string(5+5);
+// let example = new Date();
+// let example = String(new Date());
+
+// console.log(example);
+// console.log(typeof example);
+//  example = String[1,3,5];
+// console.log(example);
+// let example = String(new Date());
+// let example = (new Date()).toString();
+// console.log(example);
+// console.log(typeof example)
+// string to number
+// let example  = Number("555");
+// console.log(example);
+// console.log(typeof example);
+// console.log(example.length);
+// Boolean to number
+// let example  = Number(false);
+// console.log(example);
+// console.log(typeof example);
+// console.log(example.length);
+// Another way
+// let example = parseInt("333");
+// console.log(example);
+// let example =   parseFloat("2.554345879");
+// console.log(example.toFixed()); output: 3
+// console.log(example.toFixed(2));
+// console.log(example);
+// console.log(typeof example);
+// console.log(example.length);
+// console.log(example.toFixed(2));
+// let i=100;
+// do {
+//     console.log(i);
+//     i++
+// } while(i<10);
+// var result =  '';
+// var i = 0;
+// do{
+//     i+= 1;
+//     result += i++;
+// } while(i>0 && i<5);
+// console.log(result);
+var a= 5;
+var b = "world";
+console.log(a += 3);
+console.log(b    +=    "  Tour");
+ 
+
+
+
 
