@@ -103,11 +103,46 @@
 //     result += i++;
 // } while(i>0 && i<5);
 // console.log(result);
-var a= 5;
-var b = "world";
-console.log(a += 3);
-console.log(b    +=    "  Tour");
- 
+// var a= 5;
+// var b = "world";
+// console.log(a += 3);
+// console.log(b    +=    "  Tour");
+// 1
+// 1 2
+// 1 2 3
+// 1 2 3 4
+// 1 2 3 4 5
+// var n = 5;
+// for (var i= 1; i<=n; i++){
+//     var result = ""
+    
+//     for (var j=1; j<=i;j++){
+//         result +=  j +    ' '  
+//     }
+//     console.log(result);
+// }
+ var n=5;
+ for(i=1; i<=n; i++){
+     var result = ''
+        for(j=1; j<=n; j++){
+            result += " * "
+        }
+        console.log(result);
+        
+ }
+let total = 0; count = 1;
+while (count<=10){
+    total += count
+    count ++
+}
+console.log(total);
+
+
+
+
+
+
+
 
 
 
