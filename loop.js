@@ -121,21 +121,21 @@
 //     }
 //     console.log(result);
 // }
- var n=5;
- for(i=1; i<=n; i++){
-     var result = ''
-        for(j=1; j<=n; j++){
-            result += " * "
-        }
-        console.log(result);
+//  var n=5;
+//  for(i=1; i<=n; i++){
+//      var result = ''
+//         for(j=1; j<=n; j++){
+//             result += " * "
+//         }
+//         console.log(result);
         
- }
-let total = 0; count = 1;
-while (count<=10){
-    total += count
-    count ++
-}
-console.log(total);
+//  }
+// let total = 0; count = 1;
+// while (count<=10){
+//     total += count
+//     count ++
+// }
+// console.log(total);
 
 
 

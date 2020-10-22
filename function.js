@@ -50,8 +50,21 @@
 // calcMultiple(3,4);
 // calcMultiple(4,5);
 // calcMultiple(5,6);
-function multiplication(num1, num2){
-    return num1 * num2; 
-}
-// var result = multiplication(5,6);
-console.log(multiplication(5,10));
+// function multiplication(num1, num2){
+//     return num1 * num2; 
+// }
+// // var result = multiplication(5,6);
+// // console.log(result);
+// console.log(multiplication(5,10));
+// function addition(x,y){
+//     var result = x + y;
+//     console.log(result);
+// }
+// function sub(x,y){
+//     var result = x - y;
+//     console.log(result);
+// }
+
+// addition(50,30);
+// sub(50,30);
+// addition(20,10);
